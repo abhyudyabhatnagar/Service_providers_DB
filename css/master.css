@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Raleway');
+
+body{
+ margin: 0;
+ background: linear-gradient(to right, rgba(255,255,255,0.1),rgba(255,255,255,0.1)),url('../b.jpg');
+ background-repeat: none;
+ background-size: cover;
+ overflow-x: hidden;
+ background-attachment: fixed;
+}
+
+
+
+input, select {
+  font-family: 'Roboto Condensed', serif;
+  background: transparent;
+}
+
+
+.form-wrapper {
+  position: absolute;
+  width: 60%;
+  left:60%;
+  top:30%;
+  /* transform: translateX(-50%); */
+}
+
+/* width */
+::-webkit-scrollbar {
+width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: gray;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #4CAF50;
+}
+
+.button {
+background-color: #4CAF50; /* Green */
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+margin-bottom: 100px;
+cursor: pointer;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+}
+
+
+
+.button2:hover {
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.form-inp {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 20px;
+  color: black;
+}
+*::-moz-placeholder {
+  color: black;
+}
+*::-webkit-input-placeholder {
+  color: black;
+}
+.form-inp:focus {
+  /* outline: none; */
+  /* border: none; */
+  border-bottom: 1px solid black;
+}
+input[type='number'] {
+  -moz-appearance:textfield;
+}
+  /* Webkit browsers like Safari and Chrome */
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+  input[type='date'] {
+  -moz-appearance:textfield;
+}
+  /* Webkit browsers like Safari and Chrome */
+  input[type=date]::-webkit-inner-spin-button,
+  input[type=date]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+
+  label {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+  }
+
+  .title {
+    color:black;
+    font-size:40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+  }
+
+  .subtitle {
+    color:#626567;
+    font-size:25px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+  }
+  .reg-title {
+    font-size:30px;
+  }
+  #typed-strings {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:20px;
+  }
+
+  .titlebox {
+    position: absolute;
+    padding: 0 20px;
+    text-align:center;
+    left:10%;
+    top:50%;
+  }
+
+  #fullpage {
+    border: 10px solid black;
+  }
